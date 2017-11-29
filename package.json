@@ -1,0 +1,28 @@
+{
+  "name": "my-travel-plans",
+  "version": "1.0.0",
+  "description": "A simple app to keep track of destinations I'd like to visit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsukimi2/my-travel-plans.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsukimi2/my-travel-plans/issues"
+  },
+  "homepage": "https://github.com/tsukimi2/my-travel-plans#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3",
+    "supertest": "^3.0.0"
+  }
+}
