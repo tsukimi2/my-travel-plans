@@ -1,0 +1,8 @@
+-#!/bin/sh      
+ssh isis@146.185.151.172 <<EOF        
+ cd ~/www
+ git pull       
+ npm install --production       
+ pm2 restart all
+ exit       
+EOF
