@@ -1,6 +1,6 @@
 -#!/bin/sh      
 ssh isis@146.185.151.172 <<EOF        
- cd ~/www
+ cd ~/www/my-travel-plans
  git pull       
  npm install --production       
  pm2 restart all
