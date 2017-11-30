@@ -1,4 +1,4 @@
--#!/bin/sh      
+#!/bin/sh      
 ssh isis@146.185.151.172 <<EOF        
  cd ~/www/my-travel-plans
  git pull       
